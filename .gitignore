@@ -1,0 +1,34 @@
+src/*.exe
+src/ameristraliandollar
+src/ameristraliandollard
+src/test_ameristraliandollar
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.ameristraliandollar
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+ameristraliandollar-qt
+AmeristralianDollar-Qt.app
+
+# Unit-tests
+Makefile.test
+ameristraliandollar-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
